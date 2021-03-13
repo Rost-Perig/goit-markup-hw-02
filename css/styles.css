@@ -12,7 +12,6 @@
   color: var(--black-text);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  background-color: var(--light-first-bg);
 }
 ul {
   list-style: none;
@@ -38,10 +37,6 @@ h6 {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
-}
-
-.top-line {
-  background-color: var(--white-basis);
 }
 
 .logo {
@@ -134,6 +129,9 @@ h6 {
 .section-team {
   background-color: var(--light-second-bg);
 }
+.team-cell {
+  background-color: var(--white-basis);
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -143,7 +141,6 @@ h6 {
 .section-team-text {
   font-size: 16px;
   line-height: 19px;
-  text-align: center;
 }
 
 /* button для портфолио-фильтра */

@@ -29,6 +29,16 @@ h6 {
   color: var(--black-title);
   font-family: Roboto, sans-serif;
 }
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 
 .top-line {
   background-color: var(--white-basis);

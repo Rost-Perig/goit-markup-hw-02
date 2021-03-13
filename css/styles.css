@@ -105,11 +105,10 @@ h6 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--darck-bg);
+  background-color: var(--accent-brand);
 }
 .button-hero:hover,
 .button-hero:focus {
-  background-color: var(--accent-brand);
   cursor: pointer;
 }
 

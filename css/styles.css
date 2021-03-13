@@ -56,8 +56,13 @@ h6 {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.link.current,
 .site-navi .link:hover,
-.site-navi .link:focus {
+.site-navi .link:focus,
+.out-navi .link:hover,
+.out-navi .link:focus,
+.footer-navi .link:hover,
+.footer-navi .link:focus {
   color: var(--accent-brand);
 }
 .out-navi .link {
@@ -67,14 +72,6 @@ h6 {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.out-navi .link:hover,
-.out-navi .link:focus {
-  color: var(--accent-brand);
-}
-.link.current {
-  color: var(--accent-brand);
-}
-
 .hero {
   background-color: var(--darck-bg);
 }
@@ -191,8 +188,4 @@ h6 {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-}
-.footer-navi .link:hover,
-.footer-navi .link:focus {
-  color: var(--accent-brand);
 }

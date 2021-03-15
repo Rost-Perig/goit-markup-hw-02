@@ -14,6 +14,9 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+address {
+  font-style: normal;
+}
 ul {
   list-style: none;
 }
@@ -180,8 +183,7 @@ h6 {
   background-color: var(--darck-bg);
 }
 .footer-navi .goo-maps {
-  color: var(--white-basis);
-  font-style: normal;
+  color: var(--white-basis);  
   line-height: 1.7;
 }
 .footer-navi .goo-maps:hover,
@@ -190,6 +192,5 @@ h6 {
 }
 .footer-navi .link {
   color: var(--white-opacity);
-  font-style: normal;
   line-height: 1.71;
 }

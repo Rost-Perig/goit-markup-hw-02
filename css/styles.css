@@ -8,7 +8,7 @@
   --light-second-bg: #f5f4fa; /*наша команда*/
   --white-opacity: rgba(255, 255, 255, 0.6);
 }
-.page {
+body {
   color: var(--black-text);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -172,6 +172,7 @@ h6 {
   letter-spacing: 0.06em;
 }
 .pf-text {
+  color: var(--black-text);
   font-size: 16px;
   line-height: 1.87;
 }
